@@ -1,0 +1,191 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=New+Amsterdam&family=Rowdies:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=SUSE:wght@100..800&display=swap');
+
+body {
+    background-color:#1a1919;
+    color: white;
+    font-size: 20px;
+    font-family: "Rowdies", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.inicio {
+    font-size: 22px;
+    margin: 2%;
+}
+
+.metade{
+    font-family: "SUSE", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    background-color: rgb(121, 0, 0);
+    color: rgb(255, 255, 255);
+    border: 2px solid black;
+    border-radius: 8px;
+}
+
+.lista {
+    font-size: 20px;
+    margin: 2%;
+}
+
+.hinoo {
+    margin: 2%;
+}
+
+.midias {
+    font-size: 20px; 
+}
+
+.titulo2 {
+    font-size: 27px;
+}
+.cdb {
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    justify-content: center;
+    
+}
+
+.rato {
+    display: flex;
+    flex-direction: column;
+}
+
+.nestor {
+    display: flex;
+    flex-direction: column;
+}
+
+.midias {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    justify-content: center;
+}
+
+.ceni {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.tele {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.rodape {
+    size: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.feedback {
+    margin: 2%;
+}
+
+a:link {
+    text-decoration: none;
+    color: white;
+   }
+   
+   a:hover {
+    text-decoration: underline;
+    color: white;
+   }
+
+   a:visited {
+    color: white;
+    text-decoration: none;
+  }
+
+  a:active {
+    color: #ffffff;
+    text-decoration: underline;
+  }
+   
+  @media (max-width: 768px) {
+
+    body {
+        font-size: 16px;
+    }
+
+    .inicio {
+        font-size: 18px;
+        padding: 10px;
+    }
+
+    .lista {
+        font-size: 18px;
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    .midias, .cdb {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .metade {
+        font-size: 18px;
+        padding: 10px;
+    }
+
+    .midias img, .ceni img, .tele img {
+        width: 100%;
+        height: auto;
+    }
+
+    .cdb video, .cdb iframe {
+        width: 100%;
+        height: auto;
+    }
+
+    .rodape {
+        flex-direction: row;
+        gap: 10px;
+    }
+
+    footer a {
+        font-size: 16px;
+    }
+}
+
+img, video {
+    max-width: 100%;
+    height: auto;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+.sticky {
+    position: sticky;
+    top: 0;
+    border-radius: 8px;
+    padding: 6px 2%;
+    border: 4px;
+    background-color: #252525;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 24px;
+    }
+    iframe {
+        width: 100%;
+        aspect-ratio: 16 / 9;
+    }
+}

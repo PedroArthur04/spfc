@@ -14,5 +14,5 @@ As tecnologias utilizadas pra isso são:
 
 ## 📁 Acesso ao projeto
 
-Você pode [acessar o código fonte do projeto inicial](https://github.com/PedroArthur04/spfc/blob/main/index.html)
+Você pode [acessar o código fonte do projeto inicial](https://github.com/PedroArthur04/spfc/blob/main/index.html) ou [acessar o deploy](https://spfc-roan.vercel.app/)
 

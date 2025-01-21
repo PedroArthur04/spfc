@@ -3,7 +3,7 @@ Contando um pouco sobre o São Paulo Futebol Clube. Meu primeiro projeto.
 
 ## 🔨 Funcionalidades do projeto
 
-O projeto disponibiliza, através de tags HTML, a possibilidade do usuário ouvir o hino do clube, assistir lances de determinadas partidas e dar seu feedback sobre o site.
+O projeto disponibiliza, através de tags HTML, a possibilidade do usuário ouvir o hino do clube, assistir lances de determinadas partidas e dar seu feedback sobre o site. Também possui responsividade para smartphones.
 
 ## ✔️ Técnicas e tecnologias utilizadas
 
